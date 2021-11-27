@@ -17,4 +17,13 @@ class Person{
   }
 }
 
+//other form
+class People{
+  constructor(public name:string, lastName: string){
+
+  }
+}
+
 const juan = new Person(40, "Navarro");
+
+const alguien = new People('Maria', 'Contreras');
